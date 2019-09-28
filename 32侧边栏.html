@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box1{
+				width: 100%;
+				height: 2500px;
+				background: brown;
+			}
+			.box2{
+				width: 100%;
+				height: 2000px;
+				background: gray;
+				position: relative;
+			}
+			#rightnav{
+				width: 10%;
+				height: 500px;
+				background: red;
+				position: absolute;
+				right: 100px;
+				top: 0px;
+				transition: top 1s;
+			}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){
+				var rightnav = document.getElementById("rightnav");
+				window.onscroll = function(){
+					var top = document.documentElement.scrollTop || document.body.scrollTop;
+					console.log(top)
+					if(top>=2510){
+						rightnav.style.position = "fixed";
+						rightnav.style.top = 50+"px";
+					}else{
+						rightnav.style.position = "absolute";
+						rightnav.style.top = 0+"px";
+					}
+				}
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div class="box1"></div>
+		<div class="box2">
+			<div id="rightnav"></div>
+		</div>
+		
+	</body>
+</html>
