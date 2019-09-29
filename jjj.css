@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1{
+	height: 41px;
+	width:100% ;
+	line-height: 41px;
+	background: #29a194;
+	font-size: 12px;
+	color: white;
+}
+.box1-left{
+	float: left;
+	margin-left: 40px;
+}
+.icon1{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	background: url(完整页面/ia_100000057.png) -336px -96px/368px 112px;
+}
+
+.box1-left span{
+	margin-left: 40px;
+}
+
+.box1-rigth{
+	float: right;
+	margin-right: 63px;
+	position: relative;
+	
+}
+
+.icon2{
+	width: 20px;
+	height: 20px;
+	margin: 0px 23px 0px 36px;
+	cursor: pointer;
+	display: inline-block;
+	background: url(1.png)0px 0px;
+}
+.icon3{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	display: inline-block;
+	
+	background: url(1.png)-43px 0px;
+}
+
+.icon3box{
+	display: inline-block;/*对象呈递为内联对象，但是对象的内容作为块对象呈递*/
+	vertical-align: middle;/*垂直居中*/
+	position: relative;/*相对定位*/
+	top: -1px;
+}
+.carbox{
+	display: none;
+	width: 320px;
+	height: 91px;
+	line-height: 91px;
+	font-size: 14px;
+	position: absolute;/*绝对定位*/
+	top: 41px;
+	right: -10px;
+	color: #999;
+	padding-left: 20px;
+	right: -10px;
+	background: white;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,20%);
+	
+}
+.icon3box:hover .carbox{
+		display: block;
+}
+.line{
+	width: 300px;
+	border-top: solid 1px #ccc;
+	position: absolute;
+	bottom: 10px;
+}
+.box2{
+	padding: 24px 0px 29px;
+	width: 100%;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-left: 40px;
+	margin-right: 73px;
+}
+.topdao{
+	float: left;
+	position: relative;
+	top: 4px;
+}
+a{
+	text-decoration: none;
+}
+.topdao a{
+	color: black;
+	width: 106px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	background: white;
+	float: left;
+	border-radius: 20px;
+	font-size: 12px;
+	margin: 0px 5px;
+}
+.topdao .a1{
+	background: #29a194;
+	color: white;
+}
+.topdao a:hover{
+		background: #29a194;
+		color: white;
+}
+.box2ee{
+	margin-right: 77px;
+	float: right;
+}
+
+.sosu{
+	width: 100%;
+	height: 100%;
+	background: white;
+	text-indent: 10px;
+	border: none;
+	outline: medium;
+}
+.searchbox{
+	width: 262px;
+	height: 38px;
+	border: solid 1px #999;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.fd{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+}
+.fd1{
+	width: 33px;
+	height: 30px;
+	float: left;
+	margin: 0px 10px 0px 40px;
+	background: url(完整页面/ia_100000057.png) -256px -65px;
+}
+.fd2{
+	width: 33px;
+	height: 30px;
+	float: left;
+	background: url(完整页面/ia_100000057.png) -128px -65px;
+}
+
+.box3>div{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.box3>div>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.box3 .box31,.box3 .box34{
+	margin-left: 0;
+}
+.box31,.box32,.box33{
+	height: 34vw;
+}
+.box34,.box35,.box36{
+	height: 25vw;
+}
+.box31{
+	width: 50%;
+	background: wheat;
+}
+.box32,.box33{
+	width: calc((50% - 20px)/2);
+	background: peachpuff;
+}
+.box36{
+	width: calc(50% - 10px);
+	background: palegreen;
+}
+.box34,.box35{
+	width: calc((50% - 10px)/2);
+	background: peachpuff;
+}
